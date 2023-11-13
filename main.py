@@ -1,4 +1,4 @@
-import user_interface
+import interface
 
 
-user_interface.prompt_user()
+interface.prompt_user()
