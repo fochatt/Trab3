@@ -64,7 +64,7 @@ def prompt_user():
         #chama algoritmos
         try:
             mst, inicioVertices = prim.prim(numVertices, adj_matriz)
-            custo = prim.peso_total(mst)
+            custo = prim.peso(mst)
 
             print("\nVértice Inicial:", inicioVertices)
             print("\nMatriz de Adjacência do Grafo:")
